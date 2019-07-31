@@ -1,0 +1,80 @@
+body {
+    color: #fff;
+    background: linear-gradient(to top, #000, #808080);
+}
+
+h1 {
+    background: linear-gradient(to top, #000, #808080);
+    color: #fff;
+    margin: 0;
+    font-family: "arial, helvetica, sans-serif";
+}
+
+h1:after{
+    content: url("../img/germany_1.png");
+    height: 64px;
+    width: 64px;
+}
+
+h2{
+    text-align: center;
+
+}
+
+main {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+main article {
+    transition: box-shadow 4s, text-shadow 2s;
+}
+
+main article:target {
+    box-shadow: 0px 0px 40px #f00;
+    text-shadow: 0px 0px 10px #f00;
+}
+
+main article:hover {
+    box-shadow: 0px 0px 40px #adff2f;
+    text-shadow: 0px 0px 10px #adff2f;
+}
+
+main img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+main p {
+    font-family: "arial, helvetica, sans-serif";
+    font-size: 1.1em;
+}
+
+nav ul {
+    background: #000;
+}
+
+nav ul li:hover {
+    background: #1a1a1a;
+}
+
+nav ul a {
+    font-family: "arial, helvetica, sans-serif";
+    font-size: 16px;
+    color: #fff;
+}
+
+nav ul a:hover {
+    color: #f00;
+    text-shadow: 0px 0px 50px #f00;
+}
+
+em{
+    font-size: 2em;
+}
+
+
